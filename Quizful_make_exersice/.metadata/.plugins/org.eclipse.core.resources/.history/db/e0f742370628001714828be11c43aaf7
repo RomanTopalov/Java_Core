@@ -1,0 +1,22 @@
+package max_min_avg;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int mas[] ={1,2,3,45};
+		int max=0;
+for (int i = 0; i < mas.length; i++) {
+	if(mas[i]>max){
+	max=mas[i];	
+	}
+	}
+
+System.out.println(max  +"= max");
+}
+	
+
+
+}

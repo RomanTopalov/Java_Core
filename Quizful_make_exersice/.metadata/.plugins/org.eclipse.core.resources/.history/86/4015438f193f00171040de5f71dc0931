@@ -1,0 +1,48 @@
+package soft;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		String s = "42";
+	try{
+		s=s.concat(".5");
+		double d = Double.parseDouble(s);
+		s=Double.toString(d);
+		int x =(int)Math.ceil(Double.valueOf(s).doubleValue());
+	System.out.println(x);
+	}catch ( NumberFormatException e) {
+		System.out.println(" bad");
+	}
+	
+	
+	}
+	}
+	/*	int s=1;
+		for (int i = 5; i > 0; i--) {
+			System.out.println(i);
+			s+=i;
+			if(i!=0){
+				break;
+			}
+		}
+		System.out.print("s="+s);
+	}*/
+
+
+/*class MyExtention extends Exception{
+	
+}
+
+class MyRunTimeExeption extends RuntimeException{
+	
+}
+
+class A {
+	void method1(){ throw new MyExtention();}
+	void method2(){ throw new MyRunTimeExeption();}
+}*/

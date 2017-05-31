@@ -1,0 +1,44 @@
+package soft;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		TreeSet map = new TreeSet();
+		map.add("one");
+		map.add("2");
+		map.add("3");
+		map.add("4");
+		map.add("one");
+		Iterator it = map.iterator();
+		while (it.hasNext()) {
+		System.out.println(it.next() + " ");	
+		}
+	}
+	}
+	/*	int s=1;
+		for (int i = 5; i > 0; i--) {
+			System.out.println(i);
+			s+=i;
+			if(i!=0){
+				break;
+			}
+		}
+		System.out.print("s="+s);
+	}*/
+
+
+/*class MyExtention extends Exception{
+	
+}
+
+class MyRunTimeExeption extends RuntimeException{
+	
+}
+
+class A {
+	void method1(){ throw new MyExtention();}
+	void method2(){ throw new MyRunTimeExeption();}
+}*/

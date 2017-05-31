@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;Quizful_java_exercise_01/src&apos;&#x0D;&#x0A;- Original project: &apos;Vlad_lastname-console_chat-05a3777bd67b&apos;&#x0D;&#x0A;- Destination element: &apos;Quizful_java_exercise_01/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     main&#x0D;&#x0A;     client&#x0D;&#x0A;     server" description="Copy folders" destination="=Quizful_java_exercise_01/src" element1="src/main" element2="src/client" element3="src/server" files="0" flags="589830" folders="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493145975642" units="0" version="1.0"/>
+</session>
